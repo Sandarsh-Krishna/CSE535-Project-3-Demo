@@ -1,0 +1,12 @@
+{
+  "android.app.NotificationChannel": {
+    "min_sdk": 26,
+    "constraint": "Requires Android 8.0+ (API 26) to use NotificationChannel.",
+    "rule": "Must be guarded by if (Build.VERSION.SDK_INT >= 26) before creating the channel."
+  },
+  "NotificationManager.createNotificationChannel": {
+    "min_sdk": 26,
+    "constraint": "createNotificationChannel is only safe on API 26+.",
+    "rule": "Must only be called inside a version check: if (Build.VERSION.SDK_INT >= 26)."
+  }
+}

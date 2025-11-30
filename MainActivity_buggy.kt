@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-
+    //Bug added for demonstration
     private fun showDebugNotificationBuggy() {
         val channelId = "demo_channel"
         val channelName = "Demo Channel"
@@ -57,3 +57,4 @@ fun AppRoot() {
         )
     }
 }
+

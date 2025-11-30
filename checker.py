@@ -1,6 +1,7 @@
 import json
 from pathlib import Path
 
+
 BASE_DIR = Path(__file__).parent
 KG_PATH = BASE_DIR / "knowledge_graph.json"
 BUGGY_PATH = BASE_DIR / "MainActivity_buggy.kt"
@@ -81,7 +82,7 @@ def simulate_run(label: str, api_level: int, code: str):
     print(f"Device {label} (API {api_level}): {result}")
 
 def simulate_crowdsourced_testing():
-    print("==== Simulated Crowdsourced Testing (LAZYCOW-style) ====\n")
+    print("==== Simulated Crowdsourced Testing (LAZYCOW-style) =====\n")
 
     buggy_code = load_code(BUGGY_PATH)
     patched_code = load_code(PATCHED_PATH)
@@ -124,3 +125,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

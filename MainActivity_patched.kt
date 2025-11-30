@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
         val channelId = "demo_channel"
         val channelName = "Demo Channel"
 
-        
+        //Patch added
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(
                 channelId,
@@ -62,3 +62,4 @@ fun AppRoot() {
         )
     }
 }
+

@@ -10,7 +10,7 @@
 
  -  A small fragmentation knowledge graph that stores information about risky Android APIs and safer alternatives , this is a very tiny version of the dataset we can obtain, by researching prior research papers on this topic we can obtain a knowledge graph that contains the most common API fragmentation issues and help train the LLM.
 
- -  A checker agent step that compares the manually patched file and compares it with the knowledge graph to determine whether the file is risky or not.
+ -  A checker agent that compares the manually patched file with the knowledge graph to determine whether the file is risky or not.
 
  -  Screenshots of working of the checker agent with output.
 

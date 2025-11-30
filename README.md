@@ -1,12 +1,12 @@
 # CSE535-Project-3-Demo
 
-##Fragmentation-Aware Android API Adaptation – Demo
+## Fragmentation-Aware Android API Adaptation – Demo
 
   - This repo contains a very simple demo of the idea from our project on handling Android API fragmentation using a knowledge graph, an LLM, and a checker agent.
 
   - The goal of this demo is to show the working of the pipeline and our paper at the most basic level.
 
-##What this demo shows:
+## What this demo shows:
 
  -  A small fragmentation knowledge graph that stores information about risky Android APIs and safer alternatives , this is a very tiny version of the dataset we can obtain by researching prior research papers on this topic.
 
@@ -14,7 +14,7 @@
 
  -  Screenshots of working of the checker agent with output.
 
-##Important note:
+## Important note:
 
   - We did not train a new LLM for this demo .
 
@@ -24,11 +24,11 @@
 
  -  The focus is on showing the flow (inputs → patch → check → result).
 
-##Even with this minimal setup, the demo captures the main idea of the paper at a basic level:
+## Even with this minimal setup, the demo captures the main idea of the paper at a basic level:
 
-  using structured fragmentation knowledge plus an LLM-style agent and a checker to make Android code more robust across devices.
+ -  using structured fragmentation knowledge plus an LLM-style agent and a checker to make Android code more robust across devices.
 
-##How to use this repo
+## How to use this repo
 
  -  Browse the code files to see how the simple pipeline is implemented.
 
